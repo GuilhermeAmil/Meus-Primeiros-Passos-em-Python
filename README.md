@@ -35,4 +35,4 @@ Um utilitário que cria senhas seguras e personalizadas.
 Este repositório marca o início da minha transição para a área de tecnologia. Atualmente, estou focado em aprofundar conhecimentos em **Lógica de Programação** e me preparando para explorar **Análise de Dados**.
 
 ---
-*Desenvolvido com dedicação por Guilherme de Andrade*
+*Documentação estruturada com auxílio de IA e revisada por mim, Guilherme de Andrade*
