@@ -15,11 +15,19 @@ def gerar_senha(tamanho):
     return senha
 
 #print(gerar_senha(8))
+tamanho = ""
+try:#Try é um loop de segurança, impedindo que pareça que o programa "quebrou" quando o usuario digitar algo fora do escopo.
+    tamanho = int(input('Digite o tamanho que voce deseja sua senha: ')) #Se o usuario digitar um numero, o codigo continua aqui
+except ValueError:
+    print('Ops!. Você precisa digitar um numero inteiro (Ex: 12)')#Se o usuario digitar algo que nao seja um numero, o codigo Python pula pra cá
 
-
-qtd = 5
+qtd = ""
+try:
+    qtd = int(input('Digite a quantidade de senhas que voce deseja: '))
+except:
+    print('Digite um numero inteiro')
 print(f'Gerando {qtd} senhas: ')
 
 for i in range(qtd):
-    nova_senha = gerar_senha(12)
+    nova_senha = gerar_senha(tamanho)
     print(f'{i+1}ª senha: {nova_senha}')
