@@ -17,13 +17,15 @@ Aplicação prática de estruturas condicionais (`if`, `elif`, `else`). O projet
 ### 3. 🔄 Laços de Repetição (`tabuada.py`)
 Uso de loops (`for` e `while`) para automação de tarefas repetitivas. Aqui aprendi a controlar o fluxo de execução e trabalhar com contadores.
 
-### 4. 🏫 Portal do Aluno (`dicionario.py`)
-Sistema de gerenciamento de notas que utiliza **Dicionários** para associar nomes de alunos (Chaves) às suas respectivas notas (Valores).
-* **Conceitos Aplicados:** Manipulação de dicionários, busca de chaves e menus interativos com `while True`.
+### 🏫 Portal do Aluno (`dicionario.py`)
+Sistema de gerenciamento de notas que utiliza **Dicionários** para associar nomes de alunos a notas.
+* **Evolução Técnica:** Implementação de **Tratamento de Exceções (`try/except`)**. O sistema agora valida se a nota digitada é um número decimal válido, impedindo que o programa quebre caso o usuário digite texto por engano.
+* **Lógica:** Uso de `while True` para criar um "loop de insistência", garantindo que o dado seja inserido corretamente antes de avançar.
 
-### 5. 🔐 Gerador de Senhas Aleatórias (`gerador_senhas.py`)
-Um utilitário que cria senhas seguras e personalizadas.
-* **Conceitos Aplicados:** Importação da biblioteca `random` e `string`, uso de funções (`def`) para organização de código e concatenação de strings dentro de loops.
+### 🔐 Gerador de Senhas Aleatórias (`gerador_senhas.py`)
+Um utilitário para criação de senhas seguras com caracteres variados.
+* **Evolução Técnica:** Blindagem contra erros de entrada. Utilizei o bloco `try/except` para capturar falhas na definição do tamanho da senha.
+* **Conceitos:** Uso das bibliotecas `random` e `string`, além de loops de repetição para construção da string final.
 
 ---
 
