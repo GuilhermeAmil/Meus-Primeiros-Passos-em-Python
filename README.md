@@ -36,5 +36,12 @@ Um utilitário para criação de senhas seguras com caracteres variados.
 ## 📈 Evolução
 Este repositório marca o início da minha transição para a área de tecnologia. Atualmente, estou focado em aprofundar conhecimentos em **Lógica de Programação** e me preparando para explorar **Análise de Dados**.
 
+## 🛠️ Log de Evolução
+"v1.0: Lógica básica e listas."
+
+"v1.1: Adicionado tratamento de erros e loop de persistência."
+
+"v1.2: Implementação de salvamento em arquivo .txt."
+
 ---
 *Documentação estruturada com auxílio de IA e revisada por mim, Guilherme de Andrade*
