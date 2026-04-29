@@ -8,10 +8,12 @@ while True:
     
     if opcao == '1':
         nome=input('Digite o nome do aluno: \n')
-        while True:
+        nota_valida = False
+        while not nota_valida:
             try:
                 nota = float(input(f'Digite a nota de {nome}:\n'))
                 portal_alunos[nome]=nota
+                nota_valida = True
                 
                 # --- O BLOCO DE SALVAMENTO ENTRA AQUI ---
                 with open("portal_notas.txt", "a") as arquivo:
